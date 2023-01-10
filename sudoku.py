@@ -89,6 +89,7 @@ def show_board(board):
     for row in board:
         print(row)
 
+#testing for different boards and valid sudoku boards
 for i in range(100):
     board = generate_board()
     show_board(board)
